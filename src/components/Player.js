@@ -1,5 +1,4 @@
 import React, { useRef, useState, useEffect } from 'react';
-import '../assets/css/player.css';
 import musics from '../assets/data';
 import { timer } from '../utils/timeConverter';
 import { visualizer } from '../utils/visualizer';

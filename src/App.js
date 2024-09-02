@@ -1,8 +1,8 @@
 import React, { useState, useRef, useEffect } from 'react';
 import bgImage from './assets/video_background/background.webm';
 import Player from './components/Player';
-import Queue from './components/queue';
-import './assets/css/player.css';
+import Queue from './components/Queue';
+import './index.css';
 
 const App = () => {
   const [musicNumber, setMusicNumber] = useState(0);
